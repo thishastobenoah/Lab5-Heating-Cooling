@@ -1,5 +1,5 @@
-let actualTemp;
-let desiredTemp;
+let actualTemp = 75;
+let desiredTemp = 75;
 
 if(actualTemp < desiredTemp){
     console.log("Run heat");
@@ -10,14 +10,14 @@ if(actualTemp < desiredTemp){
 }
 
 
-let tempCelcius;
+let tempCelcius = 25;
 let targetUnit = "K";
 
 switch(targetUnit) {
-    case K:
+    case "K":
       console.log(tempCelcius + 273.15)
       break;
-    case F:
+    case "F":
       console.log((tempCelcius * 9/5) + 32)
       break;
     default:
